@@ -37,7 +37,7 @@ A modern web application for managing data mappings with Google authentication i
 
 ### Environment Variables
 
-Create a `.env` file in the frontend directory:
+Create a `.env` file in the frontend directory and docker-compose.yml:
 
 ```env
 GOOGLE_CLIENT_ID=your_google_client_id 
