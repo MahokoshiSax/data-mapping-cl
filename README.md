@@ -40,9 +40,9 @@ A modern web application for managing data mappings with Google authentication i
 Create a `.env` file in the frontend directory:
 
 ```env
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-NEXTAUTH_SECRET=your_nextauth_secret
+GOOGLE_CLIENT_ID=your_google_client_id 
+GOOGLE_CLIENT_SECRET=your_google_client_secret //or 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
+NEXTAUTH_SECRET=your_nextauth_secret // or GdBTKHDjtRBTVw8q76faSmLdGGF18youT2FbbPosqRI=
 NEXTAUTH_URL=http://localhost:3000
 ```
 

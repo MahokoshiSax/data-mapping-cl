@@ -49,9 +49,9 @@ services:
     environment:
       - NEXT_PUBLIC_API_URL=http://localhost:3001
       - GOOGLE_CLIENT_ID=903098848480-sie6acph9pdm41fner8cctvji86o0hd5.apps.googleusercontent.com
-      - GOOGLE_CLIENT_SECRET=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
+      - GOOGLE_CLIENT_SECRET=
       - NEXTAUTH_URL=http://localhost:3000
-      - NEXTAUTH_SECRET=GdBTKHDjtRBTVw8q76faSmLdGGF18youT2FbbPosqRI=
+      - NEXTAUTH_SECRET=
     depends_on:
       - backend
 
