@@ -15,6 +15,7 @@ coverage/
 build/
 dist/
 out/
+.next/
 
 # Environment files
 .env
@@ -58,4 +59,13 @@ next-env.d.ts
 .DS_Store
 *.pem
 .cache/
-.temp/ 
+.temp/
+
+# Frontend specific
+frontend/.next/
+frontend/node_modules/
+frontend/.env*
+
+# Backend specific
+backend/node_modules/
+backend/.env* 

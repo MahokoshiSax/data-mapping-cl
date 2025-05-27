@@ -1,19 +1,19 @@
-# # Frontend Dockerfile
-# FROM node:18-alpine
+# Frontend Dockerfile
+FROM node:18-alpine
 
-# WORKDIR /app
+WORKDIR /app
 
-# # Install dependencies
-# COPY frontend/package*.json ./
-# RUN npm install
+# Install dependencies
+COPY frontend/package*.json ./
+RUN npm install
 
-# # Copy source code
-# COPY frontend .
+# Copy source code
+COPY frontend .
 
-# # Build the application
-# RUN npm run build
+# Build the application
+RUN npm run build
 
-# EXPOSE 3000
+EXPOSE 3000
 
-# # Start the application
-# CMD ["npm", "run", "start"]
+# Start the application
+CMD ["npm", "run", "start"]
